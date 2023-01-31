@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link rel="stylesheet" type="text/css" href="bacckground.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sec">
+        <div class="card">
+            <div class="toggle"></div>
+            <div class="content">
+                <div class="imgText">
+                    <div class="img0x">
+                        <img src="makinde.jpg">
+                    </div>
+                    <h1>Makinde Ahmed<br><span>Web Developer
+                    </span></h1>
+                </div>
+                <ul class="sci">
+                    <ul>
+                        <li><a href="facebook.com/codewithmakinde"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="instagram.com/makindeahmed_"><i class="fa fa-instagram"></i> </a></li>
+                        <li><a href="twitter.com/makindeAhmed_"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </ul>
+            </div>
+           
+        </div>
+        
+    </section>
+    
+    <script>
+        const sec = document.querySelector('.sec');
+        const toggle = document.querySelector('.toggle');
+        toggle.onclick = function(){
+            sec.classList.toggle('dark')
+        }
+    </script>
+</body>
+</html>
